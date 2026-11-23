@@ -10,8 +10,8 @@ This is an automatically updated repository containing two JSON word lists for t
 You can fetch the latest lists directly in your project using GitHub's raw file URLs:
 
 ```javascript
-const answers = await fetch('[https://githubusercontent.com](https://raw.githubusercontent.com/JeremyKGalownia/Wordle-Word-List/main/answer-pool.json)').then(res => res.json());
-const guesses = await fetch('[https://githubusercontent.com](https://raw.githubusercontent.com/JeremyKGalownia/Wordle-Word-List/main/valid-guesses.json)').then(res => res.json());
+const answers = await fetch('https://raw.githubusercontent.com/JeremyKGalownia/Wordle-Word-List/main/answer-pool.json').then(res => res.json());
+const guesses = await fetch('https://raw.githubusercontent.com/JeremyKGalownia/Wordle-Word-List/main/valid-guesses.json').then(res => res.json());
 ```
 
 ## Updates
