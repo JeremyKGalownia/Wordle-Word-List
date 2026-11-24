@@ -5,7 +5,7 @@ This is an automatically updated repository containing two JSON word lists for t
 
 - **`answer-pool.json`** — The curated list of possible daily Wordle answers.
 - **`valid-guesses.json`** — The complete list of valid 5-letter words accepted as guesses.
-- **`daily-word.json`** - The daily word from NYT Wordle
+- **`daily_YYYY-MM-DD.json`** - The daily word from NYT Wordle
 
 ## Usage
 You can fetch the latest lists directly in your project using GitHub's raw file URLs:
