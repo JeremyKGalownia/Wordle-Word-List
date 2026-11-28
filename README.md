@@ -4,7 +4,7 @@
 This is an automatically updated repository containing two JSON word lists for the NYT Wordle:
 
 - **`answer-pool.json`** - The curated list of possible daily Wordle answers. Format: `["cigar", "rebut", ... ]`
-- **`daily_wordsjson`** - The daily words from NYT Wordle since 6/19/2026 up until the future. Format: `{"yyy-mm-dd": "word", ... }`
+- **`daily_words.json`** - The daily words from NYT Wordle since 6/19/2026 up until the future. Format: `{"yyy-mm-dd": "word", ... }`
 - **`valid-guesses.json`** - The complete list of valid 5-letter words accepted as guesses. Format: `["aahed", "aalii", ... ]`
 
 ## Usage
