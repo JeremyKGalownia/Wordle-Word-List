@@ -3,9 +3,9 @@
 ## What is this?
 This is an automatically updated repository containing two JSON word lists for the NYT Wordle:
 
-- **`answer-pool.json`** — The curated list of possible daily Wordle answers.
-- **`daily_wordsjson`** - The daily words from NYT Wordle since 6/19/2026 up until the future.
-- **`valid-guesses.json`** — The complete list of valid 5-letter words accepted as guesses.
+- **`answer-pool.json`** — The curated list of possible daily Wordle answers. (Array of words)
+- **`daily_wordsjson`** - The daily words from NYT Wordle since 6/19/2026 up until the future. (Dict of "yyy-mm-dd": "word")
+- **`valid-guesses.json`** — The complete list of valid 5-letter words accepted as guesses. (Array of words)
 
 ## Usage
 You can fetch the latest lists directly in your project using GitHub's raw file URLs:
