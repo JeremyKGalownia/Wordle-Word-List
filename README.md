@@ -13,7 +13,7 @@ You can fetch the latest lists directly in your project using GitHub's raw file 
 ```javascript
 const answers = await fetch("https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/answer-pool.json").then(res => res.json());
 const guesses = await fetch("https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/valid-guesses.json").then(res => res.json());
-const daily = await fetch(`https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/daily_words.json`).then(res => res.json());
+const dailys = await fetch(`https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/daily_words.json`).then(res => res.json());
 ```
 
 ## Updates
