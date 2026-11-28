@@ -4,8 +4,8 @@
 This is an automatically updated repository containing two JSON word lists for the NYT Wordle:
 
 - **`answer-pool.json`** — The curated list of possible daily Wordle answers.
+- **`daily_wordsjson`** - The daily words from NYT Wordle since 6/19/2026 up until the future.
 - **`valid-guesses.json`** — The complete list of valid 5-letter words accepted as guesses.
-- **`daily_YYYY-MM-DD.json`** - The daily word from NYT Wordle
 
 ## Usage
 You can fetch the latest lists directly in your project using GitHub's raw file URLs:
@@ -13,7 +13,7 @@ You can fetch the latest lists directly in your project using GitHub's raw file 
 ```javascript
 const answers = await fetch("https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/answer-pool.json").then(res => res.json());
 const guesses = await fetch("https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/valid-guesses.json").then(res => res.json());
-const daily = await fetch(`https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/daily_${DATE}.json`).then(res => res.json());
+const daily = await fetch(`https://cdn.jsdelivr.net/gh/JeremyKGalownia/Wordle-Word-List@main/daily_words.json`).then(res => res.json());
 ```
 
 ## Updates
